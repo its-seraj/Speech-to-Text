@@ -1,7 +1,8 @@
 # This program is used to convert speech to text
+# Requirements : pip install speech_recognition
+# pip install PyAudio || conda install PyAudio
 
 import speech_recognition as sp
-
 
 rec = sp.Recognizer()
 
